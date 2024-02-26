@@ -1,0 +1,103 @@
+
+*{
+  margin:0px;
+}
+header {
+  background-color: #C8C106;
+  display: flex;
+  font-family:cursive;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(155, 151, 151, 0.1);
+  font-size: 30px;
+  padding: 10px;
+}
+
+
+
+.todoList{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.addTodo{
+  margin-bottom: 40px;
+}
+
+.addTodo input{
+  margin-top: 50px;
+  width:300px;
+  height:20px;
+  border-radius: 30px;
+  border-color: rgb(181, 186, 184);
+  font-size: 20px;
+  padding: 20px;
+  /* box-shadow: 20px; */
+  font-family:cursive;
+
+}
+
+.addTodo button{
+  outline: none;
+  width: 100px;
+  height:45px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-left: 20px;
+  background-color:#545454;
+  border-color: rgb(126, 123, 123);
+  font-weight: bold;
+  color:white;
+
+}
+.addTodo button:hover{
+  background-color: #b5afaf;
+}
+
+.listElemet{
+  border-radius: 30px;
+  margin-bottom: 20px;
+  padding: 5px;
+
+}
+
+.listElemet button{
+  border-radius: 10px;
+  border-color: white;
+  margin: 10px 6px 5px;
+}
+.listElemet img{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.diplayItem{
+  outline: none;
+  border:none;
+  font-size: 18px;
+  color:#99aa56;
+  font-weight: 600;
+  background-color: #e5efbc;
+  border-radius: 30px;
+  padding: 15px;
+  margin-right: 10px;
+  font-family:cursive;
+
+
+}
+.checkbox{
+  height: 20px;
+  width: 20px;
+  margin-right: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+
